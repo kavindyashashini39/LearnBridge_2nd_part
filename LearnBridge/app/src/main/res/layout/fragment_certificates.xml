@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="32dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/name_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_survey_item_selected"
+                android:gravity="center"
+                android:text="Learn &amp; get Certificates"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card_elevated"
+                android:gravity="center"
+                android:text="Build Your Career"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEarnTab"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card_elevated"
+                android:gravity="center"
+                android:text="Earn On LearnBridge"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Free Online Courses With Certificates &amp; Diplomas"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="18dp"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:drawablePadding="14dp"
+            android:gravity="center_vertical"
+            android:text="Create Your Skills&#10;A CPD accredited Alison Certificate certifies the skills you've learned"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:drawableStart="@android:drawable/ic_menu_upload"
+            android:drawablePadding="14dp"
+            android:gravity="center_vertical"
+            android:text="Stand Out From The Crowd&#10;Add your Alison Certification to your resume and stay ahead"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:drawableStart="@android:drawable/ic_menu_compass"
+            android:drawablePadding="14dp"
+            android:gravity="center_vertical"
+            android:text="Advance In Your Career&#10;Share your certification with potential employers"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card_elevated"
+            android:gravity="center"
+            android:text="Certificate Preview"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
